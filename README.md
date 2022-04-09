@@ -18,7 +18,7 @@ import cv2
 import numpy as np
 LABELS=["Dog","Cat"]
 def prepare_data(filepath):
-	img=cv2.imread(filepath)
+	img=cv2.imread(filepath,cv2.IMREAD_GRAYSCALE)
 	img=cv2.resize(img,(50,50))
 	return img.reshape(-1,50,50,1)
 img_path=r"" # Add Your Image's Path
