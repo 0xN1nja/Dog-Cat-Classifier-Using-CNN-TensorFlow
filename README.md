@@ -22,7 +22,7 @@ def prepare_data(filepath):
 	img=cv2.resize(img,(50,50))
 	return img.reshape(-1,50,50,1)
 img_path=r"" # Add Your Image's Path
-model=tf.keras.models.load_model("64x3-CNN.model")
+model=tf.keras.models.load_model("64x3-CNN.h5")
 # Predict
 print(LABELS[int(model.predict([prepare_data(img_path)])[0])])
 ```
