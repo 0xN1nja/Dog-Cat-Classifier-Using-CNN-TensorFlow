@@ -1,5 +1,5 @@
 # Dog/Cat Classifier
-A Model To Predict Dog/Cat. Got 83% Accuracy And 65% Validation Accuracy (Because Of Overfitting)
+A Model To Predict Dog/Cat. Achieved 95.62% Accuracy And 79.73% Validation Accuracy (Because Of Overfitting)
 # Author
 Abhimanyu Sharma, https://github.com/0xN1nja
 # How To Use This Model
