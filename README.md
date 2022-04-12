@@ -34,6 +34,7 @@ import cv2
 import numpy as np
 cap=cv2.VideoCapture(0) # Add Your Webcam Index
 model=tf.keras.models.load_model(r"64x3-CNN.h5")
+LABELS=["Dog","Cat"]
 while True:
     _,img=cap.read()
     pred_img=cv2.resize(img,(50,50))
