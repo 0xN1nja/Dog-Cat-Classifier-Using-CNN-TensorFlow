@@ -38,7 +38,7 @@ while True:
     _,img=cap.read()
     pred_img=cv2.resize(img,(50,50))
     pred_img=pred_img.reshape(-1,50,50,1)
-	# Predict
+# Predict
     label=LABELS[int(model.predict([pred_img])[0])]
     cv2.putText(img,str(label),(70,70),color=(255,0,0),fontScale=2,fontFace=cv2.FONT_HERSHEY_COMPLEX)
     cv2.imshow("Image",img)
