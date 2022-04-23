@@ -45,9 +45,6 @@ while True:
     cv2.imshow("Image",img)
     cv2.waitKey(1)
 ```
-## Outputs
-![Dog Prediction](https://media.discordapp.net/attachments/959703182718672946/963442547965976686/unknown.png?width=804&height=670)
-![Cat Prediction](https://media.discordapp.net/attachments/959703182718672946/963442558447534110/unknown.png?width=782&height=670)
 ## Contributing
 Pull Requests Are Welcome. For Major Changes, Please Open An Issue First To Discuss What You Would Like To Change.
 
